@@ -17,7 +17,7 @@ Dishcovery is a React + Flask web application that helps users plan personalized
 | Frontend             | Backend    | API / Tools                         |
 | -------------------- | ---------- | ----------------------------------- |
 | React + Tailwind CSS | Flask      | Julep API, OpenWeather              |
-| Axios                | Flask-CORS | ElevenLabs (optional voice feature) |
-| HTML/CSS             | Python     | PostCSS, Vite/Cra                   |
+| Axios                | Flask-CORS |  
+| HTML/CSS             | Python     | PostCSS                             |
 
 
