@@ -1,0 +1,19 @@
+/* App.css */
+@keyframes rotate {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+  }
+  50% {
+    transform: translateX(0); /* Move to the center */
+  }
+  100% {
+    transform: translateX(100%); /* Move off-screen to the right */
+  }
+}
+
+.animate-rotate {
+  animation: rotate 5s linear infinite; /* Adjust duration and iteration as needed */
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflow */
+  width: 100%; /* Ensure it takes the full width of the container */
+}
