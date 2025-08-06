@@ -12,7 +12,7 @@ Dishcovery is a React + Flask web application that helps users plan personalized
 
 🎨 Beautiful UI with animated title and interactive inputs
 
-⬆️ Scroll-to-top button for smooth UX
+
 
 | Frontend             | Backend    | API / Tools                         |
 | -------------------- | ---------- | ----------------------------------- |
