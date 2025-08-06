@@ -4,7 +4,7 @@ Dishcovery is a React + Flask web application that helps users plan personalized
 🚀 Features
 🌍 Enter any city name and optional dietary preferences
 
-🤖 Generates a detailed foodie tour including breakfast, lunch, dinner spots, dishes, and ambiance
+🤖 Generates a detailed foodie tour including breakfast, lunch, dinner spots, dishes and ambiance
 
 ⛅ Weather-aware suggestions (if API is connected)
 
@@ -18,6 +18,6 @@ Dishcovery is a React + Flask web application that helps users plan personalized
 | -------------------- | ---------- | ----------------------------------- |
 | React + Tailwind CSS | Flask      | Julep API, OpenWeather              |
 | Axios                | Flask-CORS |  
-| HTML/CSS             | Python     | PostCSS                             |
+| HTML/CSS             | Python     |                            |
 
 
