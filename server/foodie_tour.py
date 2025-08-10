@@ -11,6 +11,10 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def home():
+    return {"message": "DishcoveryAI Backend is running 🎉"}
+
 
 WEATHER_API = os.getenv("WEATHER_API")
 client = Julep(api_key=os.getenv("JULEP_API_KEY"))
