@@ -17,11 +17,15 @@ function HomePage() {
     setLoading(true);
     setError(null);
 
-    try {
-      const res = await axios.post("http://localhost:5000/generate-tour", {
-        city: city.trim(),
-        dietary_preferences: diet.trim() || "none",
-      });
+   try {
+  const res = await axios.post(
+    `${process.env.REACT_APP_API_BASE}/generate-tour`,
+    {
+      city: city.trim(),
+      dietary_preferences: diet.trim() || "none",
+    }
+  );
+
 
       if (res.data.success) {
         // navigate with state
